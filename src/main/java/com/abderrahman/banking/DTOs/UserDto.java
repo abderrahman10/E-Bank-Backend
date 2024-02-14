@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UserDto {
     private  Integer id;
+
     @NotNull(message = "le prenom  ne doit pas etre null ")
     @NotEmpty(message = "le prenom  ne doit pas etre vide ")
     @NotBlank(message = "le prenom  ne doit pas etre vide ")
